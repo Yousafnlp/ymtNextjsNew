@@ -1,0 +1,183 @@
+@import "./Fonts.css";
+
+
+  .mycover{
+    background: rgb(255,202,62);
+  background: linear-gradient(230deg, rgba(255,202,62,1) 0%, rgba(255,198,50,1) 52%, rgba(255,186,3,1) 100%);
+     padding-bottom: 30px;
+     padding-top: 40px;
+  }
+
+  .sessions-m-heading{
+        color: #e80c3f; 
+         font-family: PoppinsSamiBold;
+        font-size: 29px;
+        text-transform: uppercase;
+    }
+ 
+    .sessions-m-divider{
+        height: 4px;
+        width: 100%;
+        margin-top: 1px;
+        background-color: #e80c3f;
+    }
+
+
+
+  .bg-red{
+    border-top: 3px solid #000000;
+    background-color: #e80c3fd4;
+  }
+
+
+  .session-tagline{
+    color: #ffffff;
+    font-family: PoppinsRegular;
+    font-size: 23px;
+    background-color: #e80c3f;
+
+
+  }
+
+  .bg-red-theme{
+    background-color: #e80c3f;
+
+  }
+  .session-tagline-eppm{
+    color: #ffffff;
+    font-family: PoppinsSamiBold;
+    font-size: 23px;
+    text-transform: uppercase;
+    background-color: #e80c3f;
+
+  }
+
+
+/* button  */
+.reg-btn button {
+  font-size: 17px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  background-color: #DEA303;
+  color: white;
+  border-bottom: 3px solid black;
+  border-radius: 5px;
+  padding: 6px 18px 6px 18px;
+  font-family: montserratMedium;
+  letter-spacing: 3px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.reg-btn button::before {
+  content: '';
+  z-index: -1; 
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; 
+  background-color: #ffffff;
+  transition: left 0.3s ease-in-out;
+}
+
+.reg-btn button::before {
+  left: 0;
+}
+
+.reg-btn button:hover {
+  background-color: #ffffff;
+}
+
+
+/* button end  */
+
+
+.reg-btn span{
+  color: #FFFFFF;
+  font-family: PoppinsMedium;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+  .reg-btn{
+    background-color: #000000;
+  }
+
+
+ .eppm-heading{
+  color: rgb(226, 224, 224);
+  font-size: 35px;
+  font-family: montserratBold;
+
+}
+.eppm-heading2{
+  /* letter-spacing: 1px; */
+  color: rgb(226, 224, 224);
+  font-size: 25px;
+  font-family: montserratMedium;
+}
+
+.eppm-poster{
+  width: 50%;
+}
+
+.belowcover-parent-eppm{
+  padding-top: 40px;
+  background-color: #e80c3fd4;
+
+}
+@media (max-width: 992px) {
+
+  
+.eppm-poster{
+  width: 90%;
+}
+
+
+ 
+  
+  .session-tagline{
+
+    font-size: 18px;margin-bottom: 5px !important;
+   
+  }
+  .session-tagline-eppm{
+    font-size: 18px;margin-bottom: 5px !important;
+   
+  }
+    
+  .sessions-m-heading{
+        font-size: 23px;
+        line-height: 23px ;
+    }
+ 
+  }
+
+  
+
+@media (max-width: 383px) {
+  .sessions-m-heading{
+    font-size: 18px;margin-bottom: 5px !important;
+}
+
+}
+
+.loader {
+  width: fit-content;
+  font-family: montserratSamiBold;
+  font-size: 30px;
+  padding-bottom: 8px;
+  color: #000000;
+  background: linear-gradient(currentColor 0 0) 0 100%/0% 3px no-repeat;
+  animation: l2 2s linear infinite;
+}
+.loader:before {
+  content:"Loading..."
+}
+@keyframes l2 {to{background-size: 100% 3px}}
+
+

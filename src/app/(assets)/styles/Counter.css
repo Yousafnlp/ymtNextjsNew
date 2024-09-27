@@ -1,0 +1,35 @@
+@import "./Fonts.css";
+
+.mycounter{
+    font-size: 50px;
+    /* background-color: #ffba26a8; */
+    color: rgb(0, 0, 0);
+    font-family: montserratSamiBold;
+
+}
+
+.counter-parent{
+    background-color: #ffba26a8;
+
+}
+
+.counter-parent h5{
+    font-family: PoppinsRegular;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 2px;
+}
+
+@media (max-width: 500px) {
+
+    .mycounter{
+        font-size: 40px;
+    }
+    
+    
+.counter-parent h5{
+    font-size: 14px;
+
+}
+} 

@@ -1,0 +1,32 @@
+@import "./Fonts.css";
+.swiper-cover {
+  width: 450px;
+}
+
+.slides {
+
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100% !important;
+  /* width: 200px; */
+}
+
+.slides img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+
+@media screen and (max-width: 500px) {
+ 
+   
+.swiper-cover {
+  width: 90%;
+}
+}

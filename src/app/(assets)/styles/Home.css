@@ -1,0 +1,119 @@
+@import "./Fonts.css";
+
+.main-heading{
+    color: #000000;
+    font-family: PoppinsSamiBold;
+    font-size: 29px;
+    text-transform: uppercase;
+
+}
+.main-heading-contact{
+    color: #000000;
+    font-family: PoppinsRegular;
+    font-size: 25px;
+
+}
+
+.divder-1{
+        width: 100%;
+        height: 2px;
+        background-color: #e80c3f;
+    /* max-width: 1365px; */
+}
+
+
+
+.main-heading-2{
+    color: #ffffff;
+    font-family: PoppinsSamiBold;
+    font-size: 29px;
+    background-color: #dea203;
+
+}
+
+
+.main-heading-3{
+    color: #ffffff;
+    font-family: PoppinsSamiBold;
+    font-size: 29px;
+
+}
+
+
+.main-heading-swip{
+    color: #ffffff;
+    font-family: PoppinsSamiBold;
+    font-size: 29px;
+    text-transform: uppercase;
+    background-color: #000000 !important;
+
+}
+
+
+body{
+    background-color: white;
+}
+
+
+@media (max-width: 991px) {
+
+
+    .main-heading-contact{
+        font-size: 23px;
+    }
+    .main-heading{
+        font-size: 23px;
+    }
+
+    .main-heading-2{
+        font-size: 23px;
+    }
+    .main-heading-3{
+        font-size: 23px;
+    }
+
+    
+.main-heading-swip{
+    font-size: 23px;
+}
+
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+
+
+@import "./Fonts.css";
+.swiper-cover {
+  width: 450px;
+}
+
+.slides {
+
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100% !important;
+  /* width: 200px; */
+}
+
+.slides img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+
+@media screen and (max-width: 500px) {
+ 
+   
+.swiper-cover {
+  width: 90%;
+}
+}

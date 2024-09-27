@@ -1,0 +1,21 @@
+@import "./Fonts.css"; 
+
+.head-testi{
+    color: #000000;
+    font-family: montserratBold;
+    font-size: 42px;
+    text-transform: uppercase;
+
+}
+
+.my-black-bg{
+    background-color: black;
+}
+
+@media (max-width: 992px) {
+
+    .head-testi{
+        font-size: 28px;
+    }
+    
+}

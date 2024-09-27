@@ -1,0 +1,141 @@
+@import "./Fonts.css";
+
+.coaching-session img{
+    width: 70%;
+}
+
+
+.coaching-session h3{
+    color: #e80c3f;
+    font-family: PoppinsMedium;
+    font-size: 26px;
+    margin: 0px;
+}
+
+
+.coaching-session h4{
+    color: #000000;
+    font-family: PoppinsMedium;
+    font-size: 18px;margin-bottom: 5px !important;
+}
+.coaching-session p{    
+    color: #000000;
+    font-family: OpenSansParagraph;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+/* button  */
+.coaching-session-btn {
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    background-color: #e80c3f;
+    color: white !important;
+    border-radius: 5px;
+    padding: 6px 18px 6px 18px;
+    font-family:montserratMedium;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.coaching-session-btn::before {
+    content: '';
+    z-index: -1; 
+    position: absolute;
+    top: 0;
+    left: 0% !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; 
+    background-color: #000000;
+    transition: left 0.4s ease-in-out;
+}
+
+.coaching-session-btn:hover::before {
+    left: 0;
+}
+
+.coaching-session-btn:hover {
+    background-color: #000000;
+}
+/* button end  */
+  
+.my-box-shedow{
+    box-shadow: 0 0 12px 0px rgb(228, 227, 227);
+    border-radius: 10px;
+}
+
+
+
+
+
+.listen-text{
+    font-size: 14px;
+    font-family: PoppinsRegular;
+    color: white !important;
+    text-decoration: none;
+}
+/* button  */
+.listen-btn {
+      box-shadow: 0 0 12px 0px rgb(228, 227, 227);
+ 
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 270px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.listen-btn::before {
+    content: '';
+    z-index: -1; 
+    position: absolute;
+    top: 0;
+    left: 0% !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; 
+    background-color: #000000;
+    transition: left 0.4s ease-in-out;
+}
+
+.listen-btn:hover::before {
+    left: 0;
+}
+
+.listen-btn:hover {
+    background-color: #e80c3f;
+}
+/* button end  */
+  
+
+
+@media (max-width: 992px) {
+    
+    .coaching-session img{
+        width: 95% !important;
+    }
+    
+    .coaching-session h3{
+        font-size: 18px;margin-bottom: 5px !important;
+     
+    }
+    
+    .coaching-session h4{
+    
+        font-size: 14px;
+    }
+    
+    .coaching-session p{
+        font-size: 14px;
+    }
+    }
